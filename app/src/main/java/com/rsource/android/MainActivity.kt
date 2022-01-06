@@ -1,4 +1,4 @@
-package com.example.rsource_android
+package com.rsource.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,12 +8,13 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.rsource_android.ui.theme.RsourceandroidTheme
+import com.rsource.android.ui.theme.RsourceandroidTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+
             RsourceandroidTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
@@ -35,4 +36,5 @@ fun DefaultPreview() {
     RsourceandroidTheme {
         Greeting("Android")
     }
+
 }
