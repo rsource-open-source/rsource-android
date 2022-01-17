@@ -3,11 +3,11 @@ package com.rsource.apis
 import java.util.*
 
 enum class StyleID {
-    empty, AUTOHOP, SCROLL, SIDEWAYS, HALF_SIDEWAYS, W_ONLY, A_ONLY, BACKWARDS
+    EMPTY, AUTOHOP, SCROLL, SIDEWAYS, HALF_SIDEWAYS, W_ONLY, A_ONLY, BACKWARDS
 }
 
 enum class GameID {
-    empty, BHOP, SURF
+    EMPTY, BHOP, SURF
 }
 
 enum class UserState {
